@@ -13,20 +13,20 @@ This repository contains the implementation of the **EEMD-LASSO-LSTM** model, a 
 ### **Model Architecture**
 Below is the architecture of our proposed model:
 
-![EEMD-LASSO-LSTM Model Architecture](Model_Architecture.png)
+![EEMD-LASSO-LSTM Model Architecture](./Figures/Model_Architecture.png)
 
 ---
 
 ## 📊 **EEMD Decomposition Results**
 Our model first applies **Ensemble Empirical Mode Decomposition (EEMD)** to break down the original time-series data into multiple **Intrinsic Mode Functions (IMFs)** and a residual component.
 
-![EEMD Decomposition Output](eemd_output.png)
+![EEMD Decomposition Output](./Figures/eemd_output.png)
 
 ---
 
 ## 📈 **Benchmark Results**
 The following table summarizes the performance of **EEMD-LASSO-LSTM** compared to various baseline models:
 
-![Benchmark Results](performance.png)
+![Benchmark Results](./Figures/performance.png)
 
 ✅ **EEMD-LASSO-LSTM achieves the lowest NRMSE across all industries, demonstrating superior predictive accuracy.**
